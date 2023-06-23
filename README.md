@@ -30,7 +30,7 @@ event listener for the `click` event on the `input#input` element in
 Try out the following in the Chrome DevTools console:
 
 ```js
-const input = document.getElementById('input');
+const input = cdocument.getElementById('input');
 input.addEventListener('click', function() {
   alert('I was clicked!');
 });
@@ -59,7 +59,7 @@ second argument to the `addEventListener()` function; the callback will be
 invoked as soon as the event occurs.
 
 Let's pull out that second argument and take a look at it:
-
+ 
 ```js
 function() {
   alert('I was clicked!');
